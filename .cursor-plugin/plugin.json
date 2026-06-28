@@ -1,0 +1,32 @@
+{
+  "name": "vector",
+  "displayName": "VECTOR / THE GHOST",
+  "version": "1.0.0",
+  "description": "Elite Cursor subagent plugin for deep code analysis, ruthless debugging, forced optimization, and fortress-grade refactoring (ANZSCO 261312 portfolio sample).",
+  "author": {
+    "name": "Jen the Dev",
+    "email": "hello@jenthedev.it.com"
+  },
+  "homepage": "https://github.com/jen-the-dev/cursor-vector-coding-architect",
+  "repository": "https://github.com/jen-the-dev/cursor-vector-coding-architect",
+  "license": "MIT",
+  "keywords": [
+    "vector",
+    "subagent",
+    "code-analysis",
+    "debugging",
+    "refactoring",
+    "cursor-plugin",
+    "anzsco-261312"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "agents",
+    "architecture",
+    "quality",
+    "security-analysis"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "commands": "./commands/"
+}
