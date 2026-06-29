@@ -1,8 +1,6 @@
 # VECTOR / THE GHOST — Cursor Coding Architect Plugin
 
-**ANZSCO 261312 portfolio sample** — multi-agent orchestration, custom subagent design, and developer-tooling delivery for Cursor.
-
-VECTOR is a specialized Cursor subagent persona for deep code analysis, ruthless debugging, forced optimization, and fortress-grade refactoring. This repository packages VECTOR as a installable local plugin with slash commands, orchestration skills, and a readonly audit variant.
+Cursor local plugin for multi-agent orchestration, custom subagent design, and developer-tooling workflows.
 
 ## Components
 
@@ -57,10 +55,6 @@ Every VECTOR transmission follows four sections:
 2. **Logic trace** — input → fault → outcome
 3. **Systemic execution** — complete code or findings
 4. **Closing word** — one-line sign-off
-
-## Portfolio evidence
-
-See [evidence/ANZSCO-261312.md](evidence/ANZSCO-261312.md) for competency mapping, artifact index, and assessor notes.
 
 ## License
 
