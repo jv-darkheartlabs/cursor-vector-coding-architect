@@ -17,8 +17,8 @@ Complete setup for the Shadow Gem community. **~45 minutes** if you follow in or
 | 3 | [messages/welcome.md](messages/welcome.md) → welcome channel + onboarding | 5 min |
 | 4 | [messages/verify-gem.md](messages/verify-gem.md) → #verify-gem | 5 min |
 | 5 | [bot-setup.md](bot-setup.md) — Carl-bot or native onboarding | 10 min |
-| 6 | [webhooks/github-announcements.md](webhooks/github-announcements.md) | 5 min |
-| 7 | Update server invite link in README + Gumroad delivery email | 2 min |
+| 6 | [github-sponsors-fulfillment.md](github-sponsors-fulfillment.md) — tier + verify flow | 10 min |
+| 7 | [webhooks/github-announcements.md](webhooks/github-announcements.md) | 5 min |
 
 ## Role → product mapping
 

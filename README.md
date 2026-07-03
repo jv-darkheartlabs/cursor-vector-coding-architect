@@ -25,9 +25,11 @@ Enable the **vector** plugin in Cursor.
 
 ## Discord — The Perimeter
 
+**Join:** https://discord.gg/Rw7ZgT52gC
+
 Community + Gem holder support. Setup guide: [discord/SETUP-CHECKLIST.md](discord/SETUP-CHECKLIST.md)
 
-After purchase → join Discord → `#verify-gem` with order ID → `@Shadow Gem` role.
+**Pay / unlock roles:** [GitHub Sponsors](https://github.com/sponsors/jen-the-dev) → then `#verify-gem` with your GitHub username.
 
 ## Shadow Gem product
 

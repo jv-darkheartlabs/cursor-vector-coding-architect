@@ -28,14 +28,15 @@ Optional later: **Shadow Gem Pro** $99/yr — commercial license + quarterly new
 | [recovery-circle](recovery-circle/README.md) | recoverer, patron, confessor, heir, predictor, mastermind |
 | [shadow-gem](shadow-gem/README.md) | all 20 |
 
-## Fulfillment (low maintenance)
+**Invite:** https://discord.gg/Rw7ZgT52gC
 
-1. Customer pays via Gumroad / GitHub Sponsors / Ko-fi
-2. Auto-email includes: repo link + **Discord invite** + `#verify-gem` instructions — see [discord/gumroad-delivery-email.md](../discord/gumroad-delivery-email.md)
-3. You verify order ID in Discord → assign role (`@Shadow Gem` or pack role)
-4. Member sees private `#gem-lounge` + pack channels
+## Fulfillment (GitHub Sponsors)
 
-**Discord setup:** [discord/README.md](../discord/README.md) — full server blueprint (~45 min).
+1. Sponsor at https://github.com/sponsors/jen-the-dev
+2. Join Discord → `#verify-gem` with GitHub username
+3. Staff verifies on Sponsors dashboard → `@Shadow Gem` role
+
+Details: [discord/github-sponsors-fulfillment.md](../discord/github-sponsors-fulfillment.md)
 
 ## License split
 

@@ -18,6 +18,9 @@
 ```
 
 ### This Discord
+
+**Join:** https://discord.gg/Rw7ZgT52gC
+
 - `#install-help` — get unblocked
 - `#logic-trace` — share VECTOR outputs
 - `#verify-gem` — unlock roles after purchase

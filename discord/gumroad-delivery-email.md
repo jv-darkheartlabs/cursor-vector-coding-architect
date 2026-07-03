@@ -21,7 +21,7 @@ Enable the **vector** plugin in Cursor. Try `/shadow` or `/shadow-commander`.
 
 ## Discord — The Perimeter
 
-Join: **[PASTE YOUR PERMANENT INVITE LINK]**
+Join: **https://discord.gg/Rw7ZgT52gC**
 
 After joining:
 1. Go to **#verify-gem**
@@ -52,6 +52,7 @@ Nothing slips past your compiler on our watch.
 
 ---
 
-**Replace before send:**
-- `[PASTE YOUR PERMANENT INVITE LINK]` — Discord → Invites → Edit → never expires
+**Replace before send (non-Sponsors):**
 - Gumroad merge tags: `{{order_id}}`, `{{product_name}}`, `{{email}}`
+
+**GitHub Sponsors:** use [github-sponsors-fulfillment.md](github-sponsors-fulfillment.md) instead — verify via GitHub username.

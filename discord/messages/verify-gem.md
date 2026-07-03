@@ -10,17 +10,29 @@
 
 ### How to verify
 
-1. Purchase via Gumroad / Ko-fi / GitHub Sponsors (link in `#announcements`)
-2. Reply in this channel with:
+**GitHub Sponsors (primary):**
+1. Sponsor at https://github.com/sponsors/jen-the-dev
+2. Reply here with:
+   ```
+   GitHub: @your-username
+   Tier: Shadow Gem Sponsor
+   ```
+3. Staff confirms on Sponsors dashboard → assigns role.
+
+**Other purchases (Gumroad/Ko-fi):**
+1. Reply with:
    ```
    Order ID: [your ID]
    Email used: [email]
-   Product: [Shadow Gem / Incident / Architecture / Shadow Ops / Recovery]
+   Product: [Shadow Gem / pack name]
    ```
+
 3. Staff verifies within **24 hours** (usually faster) and assigns your role.
 4. Refresh Discord — private channels appear under 🔒 categories.
 
 **Do not post** full receipts with payment details — order ID + email is enough.
+
+**Invite:** https://discord.gg/Rw7ZgT52gC
 
 ---
 
