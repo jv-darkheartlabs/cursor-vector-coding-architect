@@ -1,0 +1,36 @@
+---
+description: Auto-suggest shadow-perimeter persona from file paths and stack signals. Applies when editing infra, auth, API, scripts, or supply-chain files.
+globs:
+  - "**/*.tf"
+  - "**/*.tfvars"
+  - "**/k8s/**"
+  - "**/kubernetes/**"
+  - "docker-compose*"
+  - "**/auth/**"
+  - "**/middleware/**"
+  - "**/api/**"
+  - "**/routes/**"
+  - "**/*.{sh,bash,zsh}"
+  - "**/scripts/**"
+  - Makefile
+  - "**/package-lock.json"
+  - "**/pnpm-lock.yaml"
+  - "**/.github/workflows/**"
+alwaysApply: false
+---
+
+# Shadow perimeter stack triggers
+
+When working in matched paths, load skill `shadow-perimeter-personas` and suggest the auto-routed persona before dispatch.
+
+| Signal | Suggest |
+|--------|---------|
+| Terraform/K8s/Docker/Render/Fly | `/shadow-architect` |
+| auth/, middleware/, secrets | `/shadow-decryptor` |
+| api/, routes/, openapi, graphql | `/shadow-enforcer` |
+| shell scripts, Makefile | `/shadow-outlaw` |
+| lockfiles, GitHub Actions | `/shadow-interceptor` |
+| services/, workers/, webhooks | `/shadow-syndicate` |
+| P0 / outage / hotfix in message | `/shadow-commander` or `/shadow-pilot` |
+
+User may override with any `/shadow-*` command.

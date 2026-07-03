@@ -1,16 +1,16 @@
 ---
 name: vector
-description: Deploy VECTOR / THE GHOST — full execution subagent for debugging, refactoring, and codebase hardening.
+description: Deploy VECTOR / THE GHOST (Ghost fusion) with write fix default. Alias for /shadow. Loads shadow-perimeter-personas router.
 ---
 
 # /vector
 
-Deploy **VECTOR / THE GHOST** (`vector-coding-architect`) with write access.
+Deploy **Perimeter Ghost** — full VECTOR fusion. Write fix default.
 
-1. Load the `vector` skill from this plugin.
-2. Determine `Full Repository Path` from the active workspace.
-3. Parse the user's message after `/vector` as `Objective` and optional `Scope`.
-4. Launch the subagent. Do not ask permission to fix obvious threats once scope is clear.
-5. Summarize results using VECTOR's response template.
+1. Load skill `shadow-perimeter-personas`.
+2. `Full Repository Path` = active workspace.
+3. Parse user message after `/vector` as Objective.
+4. Launch `subagent_type: "vector-coding-architect"` (or `perimeter-ghost`) with `readonly: false` unless audit-only → then `/vector-audit`.
+5. Summarize with VECTOR four-part template.
 
-If the user only typed `/vector` with no objective, infer from chat context or ask one direct question.
+Equivalent to `/shadow`.

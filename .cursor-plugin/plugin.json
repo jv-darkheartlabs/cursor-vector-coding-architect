@@ -1,8 +1,8 @@
 {
   "name": "vector",
-  "displayName": "VECTOR / THE GHOST",
-  "version": "1.0.0",
-  "description": "Elite Cursor subagent plugin for deep code analysis, ruthless debugging, forced optimization, and fortress-grade refactoring (ANZSCO 261312 portfolio sample).",
+  "displayName": "VECTOR / THE GHOST — Shadow Gem",
+  "version": "2.0.0",
+  "description": "20 behavior-split shadow-perimeter personas for dominance-forward tech support. ANZSCO 261312 portfolio sample. Shadow Gem: all archetypes, /shadow-* commands, stack triggers.",
   "author": {
     "name": "Jen the Dev",
     "email": "hello@jenthedev.it.com"
@@ -12,10 +12,9 @@
   "license": "MIT",
   "keywords": [
     "vector",
+    "shadow-gem",
     "subagent",
-    "code-analysis",
-    "debugging",
-    "refactoring",
+    "personas",
     "cursor-plugin",
     "anzsco-261312"
   ],
@@ -23,10 +22,11 @@
   "tags": [
     "agents",
     "architecture",
-    "quality",
-    "security-analysis"
+    "personas",
+    "automation"
   ],
   "skills": "./skills/",
   "agents": "./agents/",
-  "commands": "./commands/"
+  "commands": "./commands/",
+  "rules": "./rules/"
 }

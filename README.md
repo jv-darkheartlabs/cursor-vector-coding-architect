@@ -1,50 +1,54 @@
-# VECTOR / THE GHOST — Cursor Coding Architect Plugin
+# VECTOR / THE GHOST — Shadow Gem
 
-Cursor local plugin for multi-agent orchestration, custom subagent design, and developer-tooling workflows.
+**ANZSCO 261312 portfolio sample** — 20 behavior-split Cursor subagent personas for dominance-forward tech support.
 
-## Components
-
-| Component | Path | Purpose |
-|-----------|------|---------|
-| Subagent (write) | `agents/vector-coding-architect.md` | Full execution — fix, refactor, harden |
-| Subagent (readonly) | `agents/vector-coding-architect-readonly.md` | Surveillance-only audits |
-| Skill | `skills/vector/SKILL.md` | Parent orchestration for `/vector` |
-| Skill | `skills/vector-audit/SKILL.md` | Parent orchestration for `/vector-audit` |
-| Command | `commands/vector.md` | Slash command — deploy with write access |
-| Command | `commands/vector-audit.md` | Slash command — readonly audit |
-
-## Install
-
-### Option A — Clone as local Cursor plugin (recommended)
+## Quick start
 
 ```bash
 git clone https://github.com/jen-the-dev/cursor-vector-coding-architect.git
 cp -R cursor-vector-coding-architect ~/.cursor/plugins/local/vector
 ```
 
-Restart Cursor or reload plugins. Enable the **vector** plugin from Cursor settings.
+Enable the **vector** plugin in Cursor.
 
-### Option B — Copy agents only
+| Command | Persona | Best for |
+|---------|---------|----------|
+| `/vector` or `/shadow` | Ghost (fusion) | Default full intensity |
+| `/shadow-commander` | Commander | P0 hotfix |
+| `/shadow-decryptor` | Decryptor | Auth & secrets |
+| `/shadow-watcher` | Watcher | Pre-merge sweep |
+| `/shadow-strategist` | Strategist | Trade-offs & ADRs |
+| `/shadow-architect` | Architect | Infra & scale |
+| … | [20 total](skills/shadow-perimeter-personas/archetypes.md) | See archetypes doc |
 
-Copy `agents/*.md` into `~/.cursor/agents/` for Task subagent dispatch without the full plugin.
+**Default:** write fix on all personas. Readonly: `/vector-audit` or say audit-only.
 
-## Usage
+## Shadow Gem product
 
-| Invocation | Mode | Behavior |
-|------------|------|----------|
-| `/vector <objective>` | Write | Debug, refactor, implement fixes |
-| `/vector-audit <scope>` | Readonly | Security/quality sweep, no writes |
-| Task `subagent_type: "vector-coding-architect"` | Write | Programmatic dispatch |
-| Task `subagent_type: "vector-coding-architect-readonly"` | Readonly | Programmatic audit |
+| SKU | Price |
+|-----|-------|
+| Perimeter Core (Ghost, Watcher, Decryptor) | Free |
+| Thematic packs (4×) | $19 each |
+| **Shadow Gem** (all 20 + commands + rules) | **$39** |
 
-### Example
+Details: [packs/README.md](packs/README.md)
+
+## Features
+
+- **20 archetypes** — behavior-split audit/fix priorities
+- **Intensity tiers** — Soft (Patron, Recoverer, Confessor) / Standard / Vector
+- **Stack triggers** — auto-suggest persona from file paths (`rules/shadow-perimeter-triggers.mdc`)
+- **Finding caps** — Commander/Pilot max 3; Soft personas max 5; Watcher/Ghost unlimited
+
+## Structure
 
 ```
-/vector Trace the null payload crash in src/api/validate.ts and harden validation
-```
-
-```
-/vector-audit branch changes — hunt injection and auth bypass in the diff
+agents/perimeter-*.md     # 20 subagents
+commands/shadow-*.md      # 20 slash commands + /vector
+skills/shadow-perimeter-personas/
+packs/                    # SKU docs
+rules/                    # stack triggers
+evidence/ANZSCO-261312.md
 ```
 
 ## Response format
@@ -56,6 +60,10 @@ Every VECTOR transmission follows four sections:
 3. **Systemic execution** — complete code or findings
 4. **Closing word** — one-line sign-off
 
+## Portfolio evidence
+
+[evidence/ANZSCO-261312.md](evidence/ANZSCO-261312.md)
+
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — commercial use encouraged via Shadow Gem purchase. See [packs/README.md](packs/README.md).
