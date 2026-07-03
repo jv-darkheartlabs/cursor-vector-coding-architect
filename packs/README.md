@@ -31,9 +31,11 @@ Optional later: **Shadow Gem Pro** $99/yr — commercial license + quarterly new
 ## Fulfillment (low maintenance)
 
 1. Customer pays via Gumroad / GitHub Sponsors / Ko-fi
-2. Send link to repo (or Sponsors-only release tag)
-3. Install: `cp -R cursor-vector-coding-architect ~/.cursor/plugins/local/vector`
-4. No bot. No webhooks.
+2. Auto-email includes: repo link + **Discord invite** + `#verify-gem` instructions — see [discord/gumroad-delivery-email.md](../discord/gumroad-delivery-email.md)
+3. You verify order ID in Discord → assign role (`@Shadow Gem` or pack role)
+4. Member sees private `#gem-lounge` + pack channels
+
+**Discord setup:** [discord/README.md](../discord/README.md) — full server blueprint (~45 min).
 
 ## License split
 

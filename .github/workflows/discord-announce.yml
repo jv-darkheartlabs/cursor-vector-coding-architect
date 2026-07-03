@@ -1,0 +1,39 @@
+name: Discord announce on release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      message:
+        description: Custom announcement text
+        required: false
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post to Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -z "$WEBHOOK" ]; then
+            echo "DISCORD_WEBHOOK_URL secret not set — skipping"
+            exit 0
+          fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MSG="${{ github.event.inputs.message }}"
+            [ -z "$MSG" ] && MSG="📡 Manual announcement from Shadow Gem repo."
+          else
+            TAG="${{ github.event.release.tag_name }}"
+            NAME="${{ github.event.release.name }}"
+            URL="${{ github.event.release.html_url }}"
+            BODY=$(echo "${{ github.event.release.body }}" | head -c 500)
+            MSG="📡 **Shadow Gem ${TAG}** — ${NAME}
+
+          ${BODY}
+
+          → ${URL}"
+          fi
+          jq -n --arg content "$MSG" '{content: $content}' | \
+            curl -sS -H "Content-Type: application/json" -d @- "$WEBHOOK"

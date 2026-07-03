@@ -23,6 +23,12 @@ Enable the **vector** plugin in Cursor.
 
 **Default:** write fix on all personas. Readonly: `/vector-audit` or say audit-only.
 
+## Discord — The Perimeter
+
+Community + Gem holder support. Setup guide: [discord/SETUP-CHECKLIST.md](discord/SETUP-CHECKLIST.md)
+
+After purchase → join Discord → `#verify-gem` with order ID → `@Shadow Gem` role.
+
 ## Shadow Gem product
 
 | SKU | Price |
