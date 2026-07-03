@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "discord": {
+      "command": "npx",
+      "args": ["-y", "@pasympa/discord-mcp"],
+      "env": {
+        "DISCORD_TOKEN": "PASTE_BOT_TOKEN_HERE",
+        "DISCORD_GUILD_ALLOWLIST": "PASTE_SERVER_ID_HERE",
+        "DISCORD_MCP_TOOLSETS": "channels,messages,roles,guilds"
+      }
+    }
+  }
+}

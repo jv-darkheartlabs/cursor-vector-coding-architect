@@ -1,14 +1,23 @@
 # The Perimeter — Discord Server Setup
 
-Complete setup for the Shadow Gem community. **~45 minutes** if you follow in order.
+**Two phases:** (1) Cursor sets up server now via MCP → (2) members use VECTOR bot later.
 
-## Prerequisites
+| Phase | When | Doc |
+|-------|------|-----|
+| **Connect MCP** | Now — 15 min | [mcp-setup.md](mcp-setup.md) |
+| **Cursor builds channels** | After MCP connected | skill `discord-perimeter-setup` |
+| **Member VECTOR bot** | When community is ready | [bot/README.md](bot/README.md) |
 
-- Discord server with **Administrator** permission
-- Server name suggestion: **The Perimeter** (or keep your existing name)
-- Payment link ready (Gumroad / Ko-fi / GitHub Sponsors) for Gem role verification
+Invite: https://discord.gg/Rw7ZgT52gC
 
-## Setup checklist
+## Quick start (your intention)
+
+1. Follow [mcp-setup.md](mcp-setup.md) — bot token + `~/.cursor/mcp.json`
+2. Restart Cursor
+3. Agent chat: *"Load discord-perimeter-setup and configure The Perimeter Discord"*
+4. Later: deploy [bot/](bot/) for `/vector` in `#logic-trace`
+
+## Full checklist
 
 | Step | Doc | Time |
 |------|-----|------|
@@ -17,8 +26,9 @@ Complete setup for the Shadow Gem community. **~45 minutes** if you follow in or
 | 3 | [messages/welcome.md](messages/welcome.md) → welcome channel + onboarding | 5 min |
 | 4 | [messages/verify-gem.md](messages/verify-gem.md) → #verify-gem | 5 min |
 | 5 | [bot-setup.md](bot-setup.md) — Carl-bot or native onboarding | 10 min |
-| 6 | [github-sponsors-fulfillment.md](github-sponsors-fulfillment.md) — tier + verify flow | 10 min |
-| 7 | [webhooks/github-announcements.md](webhooks/github-announcements.md) | 5 min |
+| 6 | [connect-to-cursor.md](connect-to-cursor.md) — MCP + bot options | read |
+| 7 | [github-sponsors-fulfillment.md](github-sponsors-fulfillment.md) — tier + verify flow | 10 min |
+| 8 | [webhooks/github-announcements.md](webhooks/github-announcements.md) | 5 min |
 
 ## Role → product mapping
 
