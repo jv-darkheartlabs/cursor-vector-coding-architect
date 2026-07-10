@@ -1,11 +1,13 @@
 # VECTOR / THE GHOST — Shadow Gem
 
-**ANZSCO 261312 portfolio sample** — 20 behavior-split Cursor subagent personas for dominance-forward tech support.
+Cursor plugin with 20 behavior-split subagent personas for deep code analysis, debugging, and refactoring.
+
+**Tech spec:** [docs/TECH_SPEC.md](docs/TECH_SPEC.md)
 
 ## Quick start
 
 ```bash
-git clone https://github.com/jen-the-dev/cursor-vector-coding-architect.git
+git clone https://github.com/jv-darkheartlabs/cursor-vector-coding-architect.git
 cp -R cursor-vector-coding-architect ~/.cursor/plugins/local/vector
 ```
 
@@ -15,10 +17,10 @@ Enable the **vector** plugin in Cursor.
 |---------|---------|----------|
 | `/vector` or `/shadow` | Ghost (fusion) | Default full intensity |
 | `/shadow-commander` | Commander | P0 hotfix |
-| `/shadow-decryptor` | Decryptor | Auth & secrets |
+| `/shadow-decryptor` | Decryptor | Auth and secrets |
 | `/shadow-watcher` | Watcher | Pre-merge sweep |
-| `/shadow-strategist` | Strategist | Trade-offs & ADRs |
-| `/shadow-architect` | Architect | Infra & scale |
+| `/shadow-strategist` | Strategist | Trade-offs and ADRs |
+| `/shadow-architect` | Architect | Infra and scale |
 | … | [20 total](skills/shadow-perimeter-personas/archetypes.md) | See archetypes doc |
 
 **Default:** write fix on all personas. Readonly: `/vector-audit` or say audit-only.
@@ -27,9 +29,9 @@ Enable the **vector** plugin in Cursor.
 
 **Join:** https://discord.gg/Rw7ZgT52gC
 
-Community + Gem holder support. Setup guide: [discord/SETUP-CHECKLIST.md](discord/SETUP-CHECKLIST.md)
+Community and Gem holder support. Setup guide: [discord/SETUP-CHECKLIST.md](discord/SETUP-CHECKLIST.md)
 
-**Pay / unlock roles:** [GitHub Sponsors](https://github.com/sponsors/jen-the-dev) → then `#verify-gem` with your GitHub username.
+**Pay / unlock roles:** [GitHub Sponsors](https://github.com/sponsors/jv-darkheartlabs) → then `#verify-gem` with your GitHub username.
 
 ## Shadow Gem product
 
@@ -44,7 +46,7 @@ Details: [packs/README.md](packs/README.md)
 ## Features
 
 - **20 archetypes** — behavior-split audit/fix priorities
-- **Intensity tiers** — Soft (Patron, Recoverer, Confessor) / Standard / Vector
+- **Intensity tiers** — Soft / Standard / Vector
 - **Stack triggers** — auto-suggest persona from file paths (`rules/shadow-perimeter-triggers.mdc`)
 - **Finding caps** — Commander/Pilot max 3; Soft personas max 5; Watcher/Ghost unlimited
 
@@ -56,7 +58,6 @@ commands/shadow-*.md      # 20 slash commands + /vector
 skills/shadow-perimeter-personas/
 packs/                    # SKU docs
 rules/                    # stack triggers
-evidence/ANZSCO-261312.md
 ```
 
 ## Response format
@@ -68,10 +69,12 @@ Every VECTOR transmission follows four sections:
 3. **Systemic execution** — complete code or findings
 4. **Closing word** — one-line sign-off
 
-## Portfolio evidence
-
-[evidence/ANZSCO-261312.md](evidence/ANZSCO-261312.md)
-
 ## License
 
 MIT — commercial use encouraged via Shadow Gem purchase. See [packs/README.md](packs/README.md).
+
+---
+
+**Maintained by:** [Dark Heart Labs](https://darkheartlabs.technology)  
+**Author:** Jennifer ([@jv-darkheartlabs](https://github.com/jv-darkheartlabs))  
+**Site:** https://darkheartlabs.technology
