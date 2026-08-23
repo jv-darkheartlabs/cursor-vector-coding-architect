@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perimeter console — VECTOR / THE GHOST</title>
+  <meta name="description" content="Interactive Shadow Gem tech-support console. Pick an incident, deploy a persona, read the VECTOR transmission.">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Fira+Code:wght@400;500&family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/theme-dhl.css">
+  <link rel="stylesheet" href="../assets/css/demo.css">
+</head>
+<body data-theme="dhl">
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="demo-app">
+    <header class="hud panel">
+      <div class="hud-brand">
+        <h1>VECTOR / THE GHOST</h1>
+        <p>Shadow perimeter · tech support</p>
+      </div>
+      <div>
+        <p class="hud-status" data-hud-status data-threat="standby">[STATUS: STANDBY]</p>
+        <p class="hud-status" data-clock style="color: var(--muted-foreground); margin: 0.2rem 0 0;"></p>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="rail">
+        <section class="panel">
+          <h2 class="section-label">01 · incident queue</h2>
+          <div class="incident-list" data-incidents></div>
+        </section>
+        <section class="panel">
+          <h2 class="section-label">02 · persona roster</h2>
+          <div class="pack-filters" data-packs></div>
+          <div class="roster-grid" data-roster></div>
+        </section>
+      </aside>
+
+      <section class="console panel">
+        <div class="console-header">
+          <div>
+            <p class="section-label">03 · vector transmission</p>
+            <h2 data-console-title>Transmission idle</h2>
+          </div>
+          <a class="badge" href="../">← landing</a>
+        </div>
+        <div class="transmission" data-transmission data-threat="standby"></div>
+        <div class="console-actions">
+          <button type="button" class="btn btn-yes" data-deploy>Deploy VECTOR</button>
+          <button type="button" class="btn btn-secondary" data-copy disabled>Copy trace</button>
+          <button type="button" class="btn btn-secondary" data-reset>Stand down</button>
+        </div>
+      </section>
+    </div>
+
+    <footer class="demo-footer">
+      <span>scripted demo · no model behind the glass</span>
+      <span>
+        <a href="https://darkheartlabs.technology/">dark heart labs</a>
+        · <a href="https://discord.gg/Rw7ZgT52gC">discord</a>
+      </span>
+    </footer>
+  </div>
+  <script src="../assets/js/roster.js"></script>
+  <script src="../assets/js/incidents.js"></script>
+  <script src="../assets/js/perimeter.js"></script>
+</body>
+</html>

@@ -2,7 +2,8 @@
 
 Cursor plugin with 20 behavior-split subagent personas for deep code analysis, debugging, and refactoring.
 
-**Tech spec:** [docs/TECH_SPEC.md](docs/TECH_SPEC.md)
+**Live demo:** [vector.darkheartlabs.technology](https://vector.darkheartlabs.technology) · [console](https://vector.darkheartlabs.technology/demo/)  
+**Tech spec:** [docs/TECH_SPEC.md](docs/TECH_SPEC.md) · **Deploy:** [docs/DEPLOY.md](docs/DEPLOY.md)
 
 ## Quick start
 
@@ -43,6 +44,18 @@ Community and Gem holder support. Setup guide: [discord/SETUP-CHECKLIST.md](disc
 
 Details: [packs/README.md](packs/README.md)
 
+## Visual demo
+
+Static Signal Protocol console, hosted the same way as the Ask and Metal Menders demos (GitHub Pages, optional custom domain).
+
+```bash
+cd site
+python3 -m http.server 8080
+# http://localhost:8080/demo/
+```
+
+Pick an incident, accept or override the stack-triggered persona, deploy VECTOR. Transmissions are scripted — no API key.
+
 ## Features
 
 - **20 archetypes** — behavior-split audit/fix priorities
@@ -58,6 +71,7 @@ commands/shadow-*.md      # 20 slash commands + /vector
 skills/shadow-perimeter-personas/
 packs/                    # SKU docs
 rules/                    # stack triggers
+site/                     # GitHub Pages demo (landing + /demo/)
 ```
 
 ## Response format

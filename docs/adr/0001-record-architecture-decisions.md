@@ -8,7 +8,7 @@ Accepted
 
 ## Decision
 
-Use ADRs in `docs/adr/` for persona behavior, intensity tiers, and commercial pack boundaries.
+Use ADRs in `docs/adr/` for persona behavior, intensity tiers, commercial pack boundaries, and demo hosting.
 
 ---
 

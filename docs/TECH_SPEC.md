@@ -13,6 +13,8 @@ flowchart LR
   Agents --> Rules["stack triggers + skills"]
   Agents --> Output["audit/fix response format"]
   Discord["Discord Perimeter"] --> Verify["Sponsor verification"]
+  Site["site/ static demo"] --> Pages["GitHub Pages"]
+  Pages --> Domain["vector.darkheartlabs.technology"]
 ```
 
 ## Components
@@ -25,6 +27,18 @@ flowchart LR
 | `packs/` | Product SKU documentation |
 | `rules/` | Stack-based persona triggers |
 | `discord/` | Community setup and bot scaffold |
+| `site/` | Public visual demo (landing + perimeter console) |
+
+## Visual demo
+
+Static HTML/CSS/JS in `site/`, published by [`.github/workflows/pages.yml`](../.github/workflows/pages.yml). Hosting matches Ask (custom domain on GitHub Pages) and Metal Menders (Actions → Pages artifact). See [DEPLOY.md](DEPLOY.md).
+
+| Path | Purpose |
+|------|---------|
+| `/` | Product landing |
+| `/demo/` | Interactive tech-support console |
+
+Transmissions are scripted from `site/assets/js/incidents.js` + `roster.js`. No model key.
 
 ## Distribution
 

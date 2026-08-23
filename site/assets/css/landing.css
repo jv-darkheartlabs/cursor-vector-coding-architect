@@ -1,0 +1,156 @@
+.landing-page {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.landing-hero {
+  margin-bottom: 2.25rem;
+}
+
+.landing-hero .badge {
+  margin-bottom: 1rem;
+}
+
+.landing-title {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 7vw, 3.15rem);
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.1;
+  color: var(--headline);
+}
+
+.landing-lede {
+  margin: 0 0 1.5rem;
+  color: var(--muted-foreground);
+  font-size: 1.05rem;
+  max-width: 38rem;
+}
+
+.landing-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.landing-section {
+  margin-bottom: 2rem;
+}
+
+.landing-section h2 {
+  margin: 0 0 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-muted);
+}
+
+.steps-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .steps-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.step-card h3 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.step-card p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--muted-foreground);
+  line-height: 1.5;
+}
+
+.step-num {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.feature-list,
+.sku-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.feature-list li,
+.sku-list li {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.92rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.feature-list li:last-child,
+.sku-list li:last-child {
+  border-bottom: none;
+}
+
+.sku-list .price {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.roster-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.roster-preview span {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid var(--border);
+  padding: 0.3rem 0.5rem;
+  color: var(--muted-foreground);
+}
+
+.roster-preview span[data-intensity="vector"] {
+  color: var(--accent-secondary);
+  border-color: color-mix(in oklab, var(--accent-secondary) 50%, var(--border));
+}
+
+.roster-preview span[data-intensity="standard"] {
+  color: var(--accent);
+}
+
+.landing-footer {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+.landing-footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.landing-footer a:hover {
+  text-decoration: underline;
+}
