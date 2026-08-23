@@ -12,6 +12,8 @@ Ask ships as a static GitHub Pages site on `ask.darkheartlabs.technology`. Metal
 
 ## Decision
 
+- Keep the GitHub repository **private** (GitHub Pro)
+- Keep the Pages site **public** — Pro default for personal-account private repos
 - Keep a Signal Protocol static site in `site/`
 - Publish **only** `site/` through GitHub Actions Pages
 - Target custom domain `vector.darkheartlabs.technology`
@@ -20,7 +22,8 @@ Ask ships as a static GitHub Pages site on `ask.darkheartlabs.technology`. Metal
 ## Consequences
 
 - Demo stays visually on-brand with Ask
-- Plugin internals are not accidentally published
+- Plugin source stays off GitHub search and anonymous clone
+- The live console remains world-readable without a GitHub login
 - DNS at Spaceship is a manual follow-up, same as Ask
 
 ---

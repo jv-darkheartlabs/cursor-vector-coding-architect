@@ -31,7 +31,7 @@ flowchart LR
 
 ## Visual demo
 
-Static HTML/CSS/JS in `site/`, published by [`.github/workflows/pages.yml`](../.github/workflows/pages.yml). Hosting matches Ask (custom domain on GitHub Pages) and Metal Menders (Actions → Pages artifact). See [DEPLOY.md](DEPLOY.md).
+Static HTML/CSS/JS in `site/`, published by [`.github/workflows/pages.yml`](../.github/workflows/pages.yml). Hosting matches Ask (custom domain on GitHub Pages) and Metal Menders (Actions → Pages artifact). Repository stays **private**; Pages stay **public** (GitHub Pro). See [DEPLOY.md](DEPLOY.md).
 
 | Path | Purpose |
 |------|---------|

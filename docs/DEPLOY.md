@@ -4,15 +4,23 @@ Static Signal Protocol demo for VECTOR / THE GHOST. Same hosting shape as [Ask](
 
 The published tree is **`site/` only**. Plugin markdown, Discord bot, and pack docs stay out of the public demo.
 
+## Visibility (GitHub Pro)
+
+Keep the **repository private**. Keep the **Pages site public**.
+
+That split is the Pro default on a personal account: source stays hidden; `https://vector.darkheartlabs.technology` stays world-readable with no GitHub login. Do not make this repo public to "fix" Pages.
+
+The published artifact is **`site/` only**, so plugin markdown, Discord bot, and pack docs never ship with the demo.
+
+Private Pages (login wall) is an Enterprise Cloud org feature, not Pro. On Pro the site is public even when the repo is not.
+
 ## GitHub Pages
 
 1. Repo Settings → Pages → Source: **GitHub Actions** (workflow: [`.github/workflows/pages.yml`](../.github/workflows/pages.yml))
 2. Settings → Pages → Custom domain: `vector.darkheartlabs.technology`
 3. Wait for DNS check → enable **Enforce HTTPS** once the certificate is approved
 
-This repository is private. Public Pages from a private repo needs GitHub Pro/Team with **public pages** allowed. Until that is on, the demo still builds; it just is not world-readable.
-
-GitHub issues a Let's Encrypt cert after DNS verifies. Status may show `authorization_pending` for 5–60 minutes. Until then Safari can warn the connection is not private — GitHub serves a fallback `*.github.io` cert. Wait rather than bypassing the warning, or use `https://jv-darkheartlabs.github.io/cursor-vector-coding-architect/` temporarily.
+GitHub issues a Let's Encrypt cert after DNS verifies. Status may show `authorization_pending` for 5–60 minutes. Until then Safari can warn the connection is not private — GitHub serves a fallback `*.github.io` cert. Wait rather than bypassing the warning.
 
 If HTTPS stays broken after an hour: remove and re-add the custom domain in Pages settings.
 
