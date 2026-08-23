@@ -107,7 +107,8 @@
       if (persona.id === suggested) btn.classList.add("is-suggested");
       btn.setAttribute("aria-pressed", String(persona.id === state.personaId));
       const cap = persona.cap === "∞" ? "uncapped" : `cap ${persona.cap}`;
-      btn.innerHTML = `<span class="name"><span class="intensity-dot" data-level="${persona.intensity}"></span>${persona.name}</span><span class="meta">${persona.command} · ${persona.intensity} · ${cap}</span>`;
+      const trig = persona.id === suggested ? ` <span class="trig">· trigger</span>` : "";
+      btn.innerHTML = `<span class="name"><span class="intensity-dot" data-level="${persona.intensity}"></span>${persona.name}</span><span class="meta">${persona.command} · ${persona.intensity} · ${cap}${trig}</span>`;
       btn.title = persona.role;
       btn.addEventListener("click", () => {
         state.personaId = persona.id;
